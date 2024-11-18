@@ -4,11 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Get common SoC device configs
-$(call inherit-product, device/nubia/sm8650-common/pineapple.mk)
-
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/nubia/nx769j/nx769j-vendor.mk)
 
 # Setup DLKM Kernel configs
 $(call inherit-product, device/qcom/common/dlkm/kernel-platform.mk)
